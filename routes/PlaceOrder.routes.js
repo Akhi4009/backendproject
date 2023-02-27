@@ -1,5 +1,5 @@
 const express = require("express");
-import PlaceOrderModel from "../model/PlaceOrder.model";
+const PlaceOrderModel=require("../model/PlaceOrder.model")
 
 
 const PlaceOrderRouter = express.Router();
