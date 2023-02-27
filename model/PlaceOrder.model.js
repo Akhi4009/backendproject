@@ -24,4 +24,4 @@ const placeOrderSchema = mongoose.Schema(
 
 const PlaceOrderModel = mongoose.model("placeorder", placeOrderSchema);
 
-module.exports = { PlaceOrderModel };
+module.exports = PlaceOrderModel
